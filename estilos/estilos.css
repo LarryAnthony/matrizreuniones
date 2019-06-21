@@ -1,0 +1,80 @@
+header{
+	background-color: grey;
+	color: white;	
+}
+
+.contenedor{
+	display: flex;
+	justify-content: center;
+}
+.logo{
+	width: 40%;
+	justify-content: center; 
+}
+.titulo{
+	width: 60%;
+	justify-content: start;
+	
+}
+.titulo p{
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-size: 20px; 
+}
+.cuerpo1 {
+	background-image: url("../img/matriz.JPG");
+	height: 500px;
+	background-position: center; /* Center the image */
+  	background-repeat: no-repeat; /* Do not repeat the image */
+  	background-size: auto; /* Resize the background image to cover the entire container*/ 
+	
+	width: 100%;
+	display: flex;
+	align-content: center;
+	text-align: right;
+	justify-content: space-around;
+}
+
+body{
+	display: block;
+}
+
+/*.cuerpo1 section{
+	width: 85%;
+	display: block;
+	align-content: center;
+	text-align: right;
+}*/
+.estrategica{
+	margin: 0px 0px 60px 0px;
+	padding-top:30px;
+	font-size: 12px;
+}
+.tactica{
+	margin: 0px 0px 60px 0px;
+	font-size: 12px;
+}
+.operativa{
+	margin: 90px 0px 60px 0px;
+	font-size: 12px;
+}
+.cuerpo1 section a{
+    font-weight: bold;
+}
+
+.estrategica1{
+	margin: 0px 0px 60px 0px;
+	padding-top:30px;
+	font-size: 12px;
+}
+.tactica1{
+	margin: 100px 0px 60px 0px;
+	font-size: 12px;
+}
+.operativa1{
+	margin: 130px 0px 60px 0px;
+	font-size: 12px;
+}
+
+
+
